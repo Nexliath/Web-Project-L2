@@ -1,0 +1,51 @@
+.name {
+
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    margin: 0px;
+
+}
+
+header img {
+    display: flex;
+    justify-content: flex-start;
+
+    border-radius: 100%;
+    height: 90px;
+    margin: 0;
+    box-shadow: 0 3px 6px grey;
+}
+
+header ul {
+    list-style: none;
+}
+
+#mainMenu {
+    margin: 10px;
+    width: 900px;
+    font-family: sans-serif;
+}
+
+#mainMenu li {
+    display: block;
+    width: 120px;
+    float: left;
+    margin-left: 2px;
+    border: 1px solid #000;
+}
+
+header {
+    position: sticky;
+    background-color: grey;
+    height: 80%;
+}
+
+body {
+    height: 100%;
+}
+
+body iframe {
+    justify-content: center;
+    align-self: flex-start;
+}
