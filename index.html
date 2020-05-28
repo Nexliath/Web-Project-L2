@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" type="text/css">
     <script type="text/javascript" src="script.js"></script>
 
     <title>Victor GARNIER</title>
@@ -12,18 +13,22 @@
 
 <body>
 
-    <header class="top-page">
-        <img src="profile.jpg" alt="Header's profile picture">
-        <h1 class="name">GARNIER Victor</h1>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h4>Victor Garnier</h4>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">A propos</a></li>
+                    <li><a href="#">A voir</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
 
-
-        <nav>
-            <ul id="mainMenu">
-                <li> <a href='#'>My Projects</a></li>
-                <li><a href='#'>My CV</a></li>
-                <li><a href='#'>Follow me</a></li>
-            </ul>
-        </nav>
+        </div>
     </header>
 
     <div class="middle">
@@ -108,7 +113,7 @@
                     <input type="email" name="email" class="text-input contact-input" placeholder="Your email adress">
                     <textarea name="message" class="text-input contact-input" placeholder="Your message"></textarea>
                     <button type="submit" class="btn btn-big">
-                        <i class="fas fa-enveloppe"></i>
+                        <i class="fa fa-enveloppe"></i>
                         Send
                     </button>
                 </form>
