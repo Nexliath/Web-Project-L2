@@ -1,4 +1,5 @@
-html body {
+body,
+html {
     margin: 0;
     font-weight: 400;
     background-color: #fff;
@@ -88,7 +89,7 @@ body {
     font-family: Crimson Text;
     font-size: 13pt;
     margin: 0;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
 }
 
 
@@ -153,4 +154,6 @@ body {
     height: 250px;
     bottom: 0;
     background-color: #262626;
+    position: fixed;
+    z-index: -1;
 }
