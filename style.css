@@ -17,7 +17,7 @@ html {
 
 header {
     background: rgba(17, 17, 17, 0.733);
-    opacity: 0.9;
+    opacity: 1;
     width: 100%;
 }
 
@@ -96,7 +96,7 @@ body {
 
 .parallax {
     /* The image used */
-    background-image: url("bg-img.jpg");
+    background-image: url("bg-img2.jpg");
 
     /* Full height */
     height: 100%;
