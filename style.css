@@ -14,9 +14,11 @@ html {
 
 }
 
+
 header {
     background: rgba(17, 17, 17, 0.733);
-
+    opacity: 0.9;
+    width: 100%;
 }
 
 header:after {
@@ -92,6 +94,20 @@ body {
     margin-bottom: 250px;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("bg-img.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .middle {
 
@@ -99,6 +115,9 @@ body {
     width: 75%;
     margin: auto;
     min-width: 460px;
+    background-color: #fff;
+    opacity: 0.85;
+
 
 }
 
@@ -145,6 +164,12 @@ body {
     color: #fff;
 }
 
+.data-footer ul a:hover {
+    color: rgb(167, 167, 167);
+    margin-left: 15px;
+    transition: all .4s;
+}
+
 .data-footer p {
     width: 70%;
 }
@@ -156,4 +181,5 @@ body {
     background-color: #262626;
     position: fixed;
     z-index: -1;
+    display: flex;
 }
