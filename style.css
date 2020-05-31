@@ -121,10 +121,69 @@ body {
 
 }
 
+#title-article {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
 #video {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.texte1 figure,
+.texte3 figure {
+    float: right;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+}
+
+.texte1 img,
+.texte3 img {
+    width: 420px;
+    height: 224px;
+
+
+}
+
+.texte2 figure,
+.texte4 figure {
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding-right: 15px;
+    padding-bottom: 5px;
+
+}
+
+.texte2 img {
+    width: 420px;
+    height: 224px;
+
+}
+
+.texte4 img {
+    width: 420px;
+    height: 270px;
 
 }
 
