@@ -253,7 +253,9 @@ h1 a {
 /* CHINA */
 
 .china-img figure img,
-.china-art1 figure img {
+.china-art1 figure img,
+.china-art2 figure img,
+.china-art3 figure img {
     width: 340px;
     height: 244px;
     border: 1px solid grey;
@@ -272,7 +274,8 @@ h1 a {
 
 }
 
-.china-art1 figure {
+.china-art1 figure,
+.china-art3 figure {
     float: right;
     text-align: center;
     font-style: italic;
@@ -280,5 +283,16 @@ h1 a {
     text-indent: 0;
     margin: 0.5em;
     padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.china-art2 figure {
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding-right: 15px;
     padding-bottom: 5px;
 }
