@@ -121,6 +121,11 @@ body {
 
 }
 
+#main-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
 #title-article {
     display: flex;
     justify-content: center;
@@ -158,6 +163,7 @@ h1 a {
 .texte3 img {
     width: 420px;
     height: 224px;
+    border: 1px solid grey;
 
 
 }
@@ -178,6 +184,7 @@ h1 a {
 .texte2 img {
     width: 420px;
     height: 224px;
+    border: 1px solid grey;
 
 }
 
@@ -241,4 +248,37 @@ h1 a {
     position: fixed;
     z-index: -1;
     display: flex;
+}
+
+/* CHINA */
+
+.china-img figure img,
+.china-art1 figure img {
+    width: 340px;
+    height: 244px;
+    border: 1px solid grey;
+}
+
+.china-img figure {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+}
+
+.china-img {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.china-art1 figure {
+    float: right;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding-left: 15px;
+    padding-bottom: 5px;
 }
