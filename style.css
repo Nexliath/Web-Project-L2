@@ -296,3 +296,75 @@ h1 a {
     padding-right: 15px;
     padding-bottom: 5px;
 }
+
+/* VIETNAM*/
+
+.introduction-viet figure {
+    float: right;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+}
+
+.introduction-viet figure img {
+    width: 340px;
+    height: 244px;
+    border: 1px solid grey;
+}
+
+.vietnam-art1 .part1,
+.vietnam-art1 .part2 {
+    float: right;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+
+}
+
+
+.vietnam-art1 figure img {
+    width: 300px;
+    height: 204px;
+    border: 1px solid grey;
+}
+
+.vietnam-art1 .repre-art1 {
+    display: block;
+}
+
+
+
+.vietnam-art2 figure img,
+.vietnam-art3 figure img {
+    width: 340px;
+    height: 244px;
+    border: 1px solid grey;
+}
+
+.vietnam-art2 figure {
+    float: right;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.vietnam-art3 figure {
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
