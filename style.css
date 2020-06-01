@@ -375,9 +375,11 @@ h1 a {
 /* What about us */
 
 .middle .wau-info {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 30px;
+    display: block;
+    width: 300px auto;
+    padding-left: 100px;
+    padding-right: 100px;
+
 }
 
 .wau-info figure img {
@@ -401,21 +403,8 @@ h1 a {
     border-radius: 40px;
 }
 
-.victor:hover {
-    background-color: rgb(231, 228, 228);
-    transition: all 1s;
-
-
-}
 
 .william {
     text-align: center;
     border-radius: 40px;
-}
-
-.william:hover {
-    background-color: rgb(231, 228, 228);
-    transition: all 1s;
-    border-radius: 40px;
-
 }
