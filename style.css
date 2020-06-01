@@ -138,6 +138,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 4px 6px 10px #aaa;
 
 }
 
@@ -163,7 +164,7 @@ h1 a {
 .texte3 img {
     width: 420px;
     height: 224px;
-    border: 1px solid grey;
+    box-shadow: 4px 6px 10px #aaa;
 
 
 }
@@ -184,13 +185,14 @@ h1 a {
 .texte2 img {
     width: 420px;
     height: 224px;
-    border: 1px solid grey;
+    box-shadow: 4px 6px 10px #aaa;
 
 }
 
 .texte4 img {
     width: 420px;
     height: 270px;
+    box-shadow: 4px 6px 10px #aaa;
 
 }
 
@@ -258,7 +260,7 @@ h1 a {
 .china-art3 figure img {
     width: 340px;
     height: 244px;
-    border: 1px solid grey;
+    box-shadow: 4px 6px 10px #aaa;
 }
 
 .china-img figure {
@@ -314,7 +316,7 @@ h1 a {
 .introduction-viet figure img {
     width: 340px;
     height: 244px;
-    border: 1px solid grey;
+    box-shadow: 4px 6px 10px #aaa;
 }
 
 .vietnam-art1 .part1,
@@ -331,7 +333,7 @@ h1 a {
 .vietnam-art1 figure img {
     width: 300px;
     height: 204px;
-    border: 1px solid grey;
+    box-shadow: 4px 6px 10px #aaa;
 }
 
 .vietnam-art1 .repre-art1 {
@@ -345,6 +347,7 @@ h1 a {
     width: 340px;
     height: 244px;
     border: 1px solid grey;
+    box-shadow: 4px 6px 10px #aaa;
 }
 
 .vietnam-art2 figure {
@@ -378,9 +381,10 @@ h1 a {
 }
 
 .wau-info figure img {
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     border-radius: 100%;
+    box-shadow: 4px 6px 10px #aaa;
 }
 
 .wau-info figure {
@@ -392,14 +396,26 @@ h1 a {
 
 }
 
+.victor {
+    text-align: center;
+    border-radius: 40px;
+}
+
 .victor:hover {
     background-color: rgb(231, 228, 228);
     transition: all 1s;
 
+
+}
+
+.william {
+    text-align: center;
+    border-radius: 40px;
 }
 
 .william:hover {
     background-color: rgb(231, 228, 228);
     transition: all 1s;
+    border-radius: 40px;
 
 }
