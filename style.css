@@ -272,6 +272,7 @@ h1 a {
 
 .china-img {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
