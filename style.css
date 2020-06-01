@@ -391,3 +391,15 @@ h1 a {
     margin: 0.5em;
 
 }
+
+.victor:hover {
+    background-color: rgb(231, 228, 228);
+    transition: all 1s;
+
+}
+
+.william:hover {
+    background-color: rgb(231, 228, 228);
+    transition: all 1s;
+
+}
