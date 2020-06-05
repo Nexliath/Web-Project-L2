@@ -76,6 +76,54 @@ p {
     transition: all 0.3s;
 }
 
+
+/* BIG FOOTER */
+.footer-wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.data-footer {
+    width: 33%;
+    padding-top: 50px;
+    float: left;
+    text-align: left;
+    color: #fff;
+
+}
+
+.data-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.data-footer ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+}
+
+.data-footer ul a:hover {
+    color: rgb(167, 167, 167);
+    margin-left: 15px;
+    transition: all .4s;
+}
+
+.data-footer p {
+    width: 70%;
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+    bottom: 0;
+    background-color: #262626;
+    z-index: -1;
+    display: flex;
+}
+
 /* //////////////////////////////////////////////// HOME PAGE /////////////////////////////////////////// */
 
 /* Image de bannière */
@@ -234,5 +282,104 @@ p {
     .contenu-banniere {
         margin-top: 35px;
     }
+
+}
+
+
+/* //////////////////////////////////////////////// CHINA AND VIETNAM PAGES /////////////////////////////////////////// */
+
+
+.image-banniere-china {
+    background: url('china-pic/china.jpg') no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-banniere-vietnam {
+    background: url('vietnam-pic/vietnam.jpg') no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenu-banniere-china,
+.contenu-banniere-vietnam {
+    margin-top: 35px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.contenu-banniere-china h1,
+.contenu-banniere-vietnam h1 {
+    text-transform: uppercase;
+    line-height: 39px;
+    margin-bottom: 16px;
+}
+
+.contenu-banniere-china h1 span,
+.contenu-banniere-vietnam h1 span {
+    color: #1ab2e0da;
+}
+
+.about-china,
+.article-china,
+.article-china1,
+.article-china2,
+.article-china3,
+.about-vietnam,
+.article-vietnam,
+.article-vietnam1,
+.article-vietnam2,
+.article-vietnam3 {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+
+.article-china,
+.article-china2,
+.article-vietnam,
+.article-vietnam2 {
+    background: #fff;
+}
+
+.article-china1,
+.article-china3,
+.article-vietnam1,
+.article-vietnam3 {
+    background: #f5f5f5;
+
+}
+
+.all-article-china,
+.all-article-vietnam {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-article-china .all-article-china-item,
+.all-article-vietnam .all-article-vietnam-item {
+    width: 30%;
+}
+
+.all-article-china .all-article-china-item img,
+.all-article-vietnam .all-article-vietnam-item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.all-article-china .all-article-china-item h3,
+.all-article-vietnam .all-article-vietnam-item h3 {
+    margin-bottom: 15px;
+    color: #1ab2e0da;
 
 }
