@@ -1,0 +1,57 @@
+let motsecret;
+
+let tableauMot = new Array(); //Tableau contenant les lettres du mot
+let mots = new Array(); //Tableau contenant tous les mots 
+
+let rate = 0; //Nombre d'erreurs
+let letterFound = 0; //Nombre de lettre trouvee
+let end = false; //true if the game is done
+
+mots[0] = "PEKIN";
+mots[1] = "HONGKONG";
+mots[2] = "SHANGHAI";
+
+// On prend un mot au hasard en fonction de la seconde en cours
+motSecret=mots[Math.floor(Math.random() * 3)];
+let wordLength = motSecret.length;
+
+function changeColor(key, color){
+    key.style.backgroundColor = color;
+}
+
+function set(key){
+
+    if(key.style.backgroundColor == "red" || end){return;} //Avoid the color changing of the keyboard when the game is over or when the key is already colored
+
+    
+    changeColor(key, "#26ee99");
+
+
+    let trouve = false; //setting the key to false when the user click on it
+
+    for(let i = 0; i < wordLength; i++){
+        if(tableauMot[i].innerHTML == key.innerHTML){
+            console.log("dp");
+            tableauMot[i].style.visibility = 'visible';
+            trouve = true;
+            letterFound++;
+        }
+    }
+
+    if(!trouve){
+        changeColor(key, "red");
+        rate++;
+        
+        if(rate == 9){
+            alert("You lost");
+            for(let i = 0; i < wordLength; i++){
+                tableauMot[i].style.visibility = 'visible';
+                end = true;
+            }
+        }
+    }
+    else if(letterFound == wordLength){
+        alert("you won");
+        end = true;
+    }
+}
