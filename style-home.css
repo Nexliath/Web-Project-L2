@@ -1,64 +1,238 @@
-/* ///////////////////////////////////////////// HOME //////////////////////////////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
-    font-family: latha;
-    color: white;
-    background: url("bg-img2.jpg")no-repeat;
-    background-size: cover;
-}
-
-.box {
-    width: 900px;
-    float: right;
-    border: 1px solid black;
-
-}
-
-.box ul li {
-    width: 120px;
-    float: left;
-    margin: 10px auto;
-    text-align: center;
-}
-
-.box ul li a {
+/* //////////////////////////////////////////////// FOR ALL PAGES /////////////////////////////////////////// */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
     text-decoration: none;
-    color: darkgrey;
-
+    font-family: 'Roboto', sans-serif;
 }
 
-.box ul li:hover {
-    background-color: green;
-}
-
-.box ul li a:hover {
-    color: white;
-}
-
-.wd {
-    width: 300px;
-    height: 539px;
-    background-color: black;
-    opacity: 0.9;
-    padding: 55px;
-
-}
-
-.wd h1 {
-    text-align: center;
+h1.title {
+    color: #444444;
     text-transform: uppercase;
-    font-weight: 100px;
+    font-size: 38px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
 }
 
-.wd h4 {
-    text-align: justify;
-    color: darkgrey;
-    font-weight: normal;
+p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #383f4e9c;
 }
 
-.wd h2 {
+.btn a {
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid #1ab2e0da;
+    color: #1ab2e0da;
+    display: block;
+    margin: 25px auto 0;
     text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 32px;
+    color: #1ab2e0da;
+}
+
+.header-items ul {
+    display: flex;
+}
+
+.header-items ul li {
+    margin: 0 10px;
+}
+
+.header-items ul li a {
     text-transform: uppercase;
-    font-weight: normal;
-    margin: 40px auto;
+    color: #fff;
+}
+
+.header-items ul li a:hover {
+    text-transform: uppercase;
+    color: #1ab2e0da;
+    transition: all 0.3s;
+}
+
+/* //////////////////////////////////////////////// HOME PAGE /////////////////////////////////////////// */
+
+/* Image de bannière */
+.image-banniere-home {
+    background: url('ac-pic/bg-img2.jpg') no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenu-banniere {
+    text-align: center;
+    color: #fff;
+}
+
+.contenu-banniere h1 {
+    text-transform: uppercase;
+    line-height: 39px;
+    margin-bottom: 16px;
+}
+
+.contenu-banniere h1 span {
+    color: #1ab2e0da;
+}
+
+
+/* //////////////////////////////////////////////// ABOUT PART /////////////////////////////////////////// */
+.about,
+.page,
+.contact,
+.asianteam {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+/* //////////////////////////////////////////////// PAGES PART /////////////////////////////////////////// */
+.page {
+    background: #f5f5f5;
+}
+
+.all-page {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-page .all-page-item {
+    width: 30%;
+}
+
+.all-page .all-page-item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.all-page .all-page-item h3 {
+    margin-bottom: 15px;
+    color: #1ab2e0da;
+
+}
+
+/* Contact us */
+.form-wrapper .form-input {
+    margin-bottom: 15px;
+}
+
+.form-wrapper .form-input input[type="text"] {
+    width: 250px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+}
+
+.form-wrapper .form-input textarea {
+    width: 250px;
+    padding: 12px 20px;
+    height: 80px;
+    resize: none;
+    border: 1px solid #ccc;
+}
+
+/* //////////////////////////////////////////////// TEAM PART /////////////////////////////////////////// */
+.asianteam {
+    background: #f5f5f5;
+}
+
+.asianteam-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.asianteam-wrapper .team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.asianteam-wrapper .team {
+    margin-bottom: 25px;
+}
+
+.asianteam-wrapper .member {
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.asianteam-wrapper .member img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease;
+}
+
+.asianteam-wrapper .member:hover img {
+    transform: scale(1.1);
+}
+
+/* mini footer home*/
+.footer-home {
+    width: 100%;
+    text-align: center;
+    background: #444444;
+    padding: 20px 0;
+}
+
+.footer-home a {
+    color: #fff;
+}
+
+/* //////////////////////////////////////////////// MEDIA SETTINGS /////////////////////////////////////////// */
+
+@media (max-width: 720px) {
+
+    .header {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 25px;
+    }
+
+    .header-items ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-items ul li {
+        margin-bottom: 5px;
+    }
+
+    .contenu-banniere {
+        margin-top: 35px;
+    }
+
 }
