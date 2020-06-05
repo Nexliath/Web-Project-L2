@@ -41,6 +41,7 @@ function set(key){
     if(!trouve){
         changeColor(key, "red");
         rate++;
+        document.images['pendu'].src="images/pendu_"+rate+".jpg"; // On change l'image du pendu
         
         if(rate == 9){
             alert("You lost");
