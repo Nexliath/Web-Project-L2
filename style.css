@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body,
 html {
     margin: 0;
     font-weight: 400;
     background-color: #fff;
+
 }
 
 /*HEADER*/
@@ -29,7 +32,6 @@ header:after {
 
 .logo {
     float: left;
-
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 17px;
@@ -75,6 +77,11 @@ nav a::before {
     transition: all ease-in-out 250ms;
 }
 
+section {
+    margin-left: 1em;
+    margin-right: 2em;
+}
+
 nav a:hover::before {
     width: 100%;
 
@@ -87,11 +94,18 @@ nav a:hover {
 
 /*BODY*/
 
-body {
+body header {
     font-family: Crimson Text;
     font-size: 13pt;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.30;
     margin: 0;
     margin-bottom: 250px;
+    color: #383f4e;
 }
 
 .parallax {
@@ -116,7 +130,7 @@ body {
     margin: auto;
     min-width: 460px;
     background-color: #fff;
-    opacity: 0.85;
+    opacity: 0.95;
 
 
 }
@@ -146,6 +160,8 @@ h1 a {
     text-decoration: none;
     color: black;
 }
+
+
 
 .texte1 figure,
 .texte3 figure {
