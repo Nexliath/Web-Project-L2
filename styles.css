@@ -55,6 +55,8 @@ p {
 .logo a {
     font-size: 32px;
     color: #1ab2e0da;
+    text-transform: uppercase;
+    font-family: fantasy;
 }
 
 .header-items ul {
@@ -77,7 +79,8 @@ p {
 }
 
 
-/* BIG FOOTER */
+/* //////////////////////////////////////// BIG FOOTER ////////////////////////////////////////// */
+
 .footer-wrapper {
     width: 1100px;
     margin: 0 auto;
@@ -205,6 +208,14 @@ p {
     height: 80px;
     resize: none;
     border: 1px solid #ccc;
+}
+
+.turn-touch img:hover,
+.viet-touch img:hover,
+.china-touch img:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+
 }
 
 /* //////////////////////////////////////////////// TEAM PART /////////////////////////////////////////// */

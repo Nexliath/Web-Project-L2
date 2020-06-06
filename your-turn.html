@@ -3,152 +3,153 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="text/javascript" src="script.js"></script>
-    <link rel="shortcut icon" type="image/png" href="logo.png" />
-
-
-    <title>WestAsia - It's your turn !</title>
-
-
+    <title>WestAsia - Your turn !</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="parallax">
+<body>
 
-    <header class="navbar" id="top">
-        <div class="container">
+    <div class="container" id="yt">
+
+        <div class="header">
             <div class="logo">
-                <h4>WestAsia</h4>
+                <a href="#">WestAsia</a>
             </div>
-            <nav>
+            <div class="header-items">
                 <ul>
-                    <li><a href="testhome.html">Home</a></li>
-                    <li><a href="article.html">Article</a></li>
-                    <li><a href="china.html">China</a></li>
-                    <li><a href="vietnam.html">Vietnam</a></li>
-                    <li><a href="your-turn.html">It's your turn</a></li>
-                    <li><a href="what-about-us.html">What about us</a></li>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="china.html">china</a></li>
+                    <li><a href="vietnam.html">vietnam</a></li>
+                    <li><a href="your-turn.html">Your turn</a></li>
+                    <li><a href="what-about-us.html">our team</a></li>
                 </ul>
-            </nav>
+            </div>
+        </div>
+
+        <div class="image-banniere-yt">
+            <div class="contenu-banniere-yt">
+                <h1>One of the most powerful country<br> <span>The home of the Great Wall.<span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, neque.</p>
+            </div>
+        </div>
+
+        <div class="about-yt" id="about-yt">
+            <h1 class="title">The goal of the game</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, eveniet temporibus reprehenderit. Veniam
+                sunt corrupti necessitatibus quam, quia doloribus nesciunt ut eveniet, alias aspernatur eum perferendis
+                commodi doloremque recusandae tenetur quis cumque voluptatibus officiis ea excepturi dignissimos!
+                Repellat molestias iusto dicta facere ipsum, harum maiores illum laborum tenetur? Explicabo, cupiditate!
+            </p>
 
         </div>
-    </header>
 
-    <div class="middle">
-        <h2 id="main-title">It's your turn !</h2>
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-            Aldus PageMaker including versions of Lorem Ipsum.
+        <div class="jeu" id="jeu">
 
-            Why do we use it?
-            It is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-            letters, as opposed to using 'Content here, content here', making it look like readable English. Many
-            desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
-            search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved
-            over
-        </p>
-        <div class="jeu">
-            <img name="pendu" class="pendu" src="images/pendu_0.jpg">
-            <table id="clavier">
-                <tr>
-                    <td onclick="set(this);">A</td>
-                    <td onclick="set(this);">B</td>
-                    <td onclick="set(this);">C</td>
-                    <td onclick="set(this);">D</td>
-                    <td onclick="set(this);">E</td>
-                    <td onclick="set(this);">F</td>
-                    <td onclick="set(this);">G</td>
-                    <td onclick="set(this);">H</td>
-                    <td onclick="set(this);">I</td>
-                    <td onclick="set(this);">J</td>
-                </tr>
-                <tr>
-                    <td onclick="set(this);">K</td>
-                    <td onclick="set(this);">L</td>
-                    <td onclick="set(this);">M</td>
-                    <td onclick="set(this);">N</td>
-                    <td onclick="set(this);">O</td>
-                    <td onclick="set(this);">P</td>
-                    <td onclick="set(this);">Q</td>
-                    <td onclick="set(this);">R</td>
-                    <td onclick="set(this);">S</td>
-                    <td onclick="set(this);">T</td>
-                </tr>
-                <tr>
-                    <td onclick="set(this);">U</td>
-                    <td onclick="set(this);">V</td>
-                    <td onclick="set(this);">W</td>
-                    <td onclick="set(this);">X</td>
-                    <td onclick="set(this);">Y</td>
-                    <td onclick="set(this);">Z</td>
-                </tr>
-            </table>
-            <br>
-            <a class="lien" href="javascript:location.reload();">Nouvelle partie</a>
-            <table id="mot">
-                <tr>
-                    <script language="javascript">
-                        for (var i = 0; i < wordLength; i++) document.write("<td> <p id=\"" + i + "\">" + motSecret
-                            .charAt(i) + "</p></td>");
-                    </script>
-                </tr>
-            </table>
-            <script language="javascript">
-                for (var i = 0; i < wordLength; i++) tableauMot[i] = document.getElementById(i);
-            </script>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, eveniet temporibus reprehenderit. Veniam
+                sunt corrupti necessitatibus quam, quia doloribus nesciunt ut eveniet, alias aspernatur eum perferendis
+                commodi doloremque recusandae tenetur quis cumque voluptatibus officiis ea excepturi dignissimos!
+                Repellat molestias iusto dicta facere ipsum, harum maiores illum laborum tenetur? Explicabo, cupiditate!
+            </p>
+
+            <div class="jeu">
+                <img name="pendu" class="pendu" src="images/pendu_0.jpg">
+                <table id="clavier">
+                    <tr>
+                        <td onclick="set(this);">A</td>
+                        <td onclick="set(this);">B</td>
+                        <td onclick="set(this);">C</td>
+                        <td onclick="set(this);">D</td>
+                        <td onclick="set(this);">E</td>
+                        <td onclick="set(this);">F</td>
+                        <td onclick="set(this);">G</td>
+                        <td onclick="set(this);">H</td>
+                        <td onclick="set(this);">I</td>
+                        <td onclick="set(this);">J</td>
+                    </tr>
+                    <tr>
+                        <td onclick="set(this);">K</td>
+                        <td onclick="set(this);">L</td>
+                        <td onclick="set(this);">M</td>
+                        <td onclick="set(this);">N</td>
+                        <td onclick="set(this);">O</td>
+                        <td onclick="set(this);">P</td>
+                        <td onclick="set(this);">Q</td>
+                        <td onclick="set(this);">R</td>
+                        <td onclick="set(this);">S</td>
+                        <td onclick="set(this);">T</td>
+                    </tr>
+                    <tr>
+                        <td onclick="set(this);">U</td>
+                        <td onclick="set(this);">V</td>
+                        <td onclick="set(this);">W</td>
+                        <td onclick="set(this);">X</td>
+                        <td onclick="set(this);">Y</td>
+                        <td onclick="set(this);">Z</td>
+                    </tr>
+                </table>
+                <br>
+                <a class="lien" href="javascript:location.reload();">Nouvelle partie</a>
+                <table id="mot">
+                    <tr>
+                        <script language="javascript">
+                            for (var i = 0; i < wordLength; i++) document.write("<td> <p id=\"" + i + "\">" + motSecret
+                                .charAt(i) + "</p></td>");
+                        </script>
+                    </tr>
+                </table>
+                <script language="javascript">
+                    for (var i = 0; i < wordLength; i++) tableauMot[i] = document.getElementById(i);
+                </script>
+            </div>
+
         </div>
+
+
+
+
+        <div class="footer">
+            <div class="footer-wrapper">
+                <div class="data-footer" id="contacts">
+                    <h2>WestAsia</h2>
+                    <ul>
+                        <li>Call us: 01 23 65 23 89</li>
+                        <li>Mail: westasia@efrei.net</li>
+                        <li>Adress: 24 street of the side, USA</li>
+
+
+                    </ul>
+
+
+                </div>
+                <div class="data-footer">
+                    <h2>Navigation</h2>
+                    <ul>
+                        <li><a href="home.html">home</a></li>
+                        <li><a href="china.html">china</a></li>
+                        <li><a href="vietnam.html">vietnam</a></li>
+                        <li><a href="your-turn.html">Your turn</a></li>
+                        <li><a href="what-about-us.html">our team</a></li>
+                    </ul>
+                </div>
+
+                <div class="data-footer">
+                    <h2>Our socials</h2>
+                    <ul>
+                        <li><a href="https://www.facebook.com/ytdaily/">Facebook</a></li>
+                        <li><a href="https://twitter.com/ytorgcn">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/yttownmarket/?hl=en">Instagram</a></li>
+                        <li><a href="https://www.youtube.com/user/deutschewelleenglish">Youtube</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+        </div>
+
     </div>
-
-
-
-
-    <div class="footer">
-        <div class="footer-wrapper">
-            <div class="data-footer" id="contacts">
-                <h2>WestAsia</h2>
-                <ul>
-                    <li>Call us: 01 23 65 23 89</li>
-                    <li>Mail: westasia@efrei.net</li>
-                    <li>Adress: 24 street of the side, USA</li>
-
-
-                </ul>
-
-
-            </div>
-            <div class="data-footer">
-                <h2>Navigation</h2>
-                <ul>
-                    <li><a href="testhome.html">Home</a></li>
-                    <li><a href="what-about-us.html">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="data-footer">
-                <h2>Our socials</h2>
-                <ul>
-                    <li><a href="https://www.facebook.com/chinadaily/">Facebook</a></li>
-                    <li><a href="https://twitter.com/chinaorgcn">Twitter</a></li>
-                    <li><a href="https://www.instagram.com/chinatownmarket/?hl=en">Instagram</a></li>
-                    <li><a href="https://www.youtube.com/user/deutschewelleenglish">Youtube</a></li>
-                </ul>
-
-            </div>
-        </div>
-
-
-
-    </div>
-
-
 
 </body>
 
