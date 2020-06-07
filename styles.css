@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 /* //////////////////////////////////////////////// FOR ALL PAGES /////////////////////////////////////////// */
 * {
     margin: 0;
@@ -499,11 +500,16 @@ a.lien {
 
 }
 
-.pendu {
+.mot-clavier {
     display: flex;
-    float: right;
-    padding-right: 250px;
+    flex-direction: column;
 }
+
+.jeu {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 /* //////////////////////////////////////////////// WHAT ABOUT US PAGE /////////////////////////////////////////// */

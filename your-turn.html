@@ -47,62 +47,72 @@
 
         <div class="jeu" id="jeu">
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, eveniet temporibus reprehenderit. Veniam
-                sunt corrupti necessitatibus quam, quia doloribus nesciunt ut eveniet, alias aspernatur eum perferendis
-                commodi doloremque recusandae tenetur quis cumque voluptatibus officiis ea excepturi dignissimos!
-                Repellat molestias iusto dicta facere ipsum, harum maiores illum laborum tenetur? Explicabo, cupiditate!
-            </p>
-
-            <div class="jeu">
-                <img name="pendu" class="pendu" src="images/pendu_0.jpg">
-                <table id="clavier">
-                    <tr>
-                        <td onclick="set(this);">A</td>
-                        <td onclick="set(this);">B</td>
-                        <td onclick="set(this);">C</td>
-                        <td onclick="set(this);">D</td>
-                        <td onclick="set(this);">E</td>
-                        <td onclick="set(this);">F</td>
-                        <td onclick="set(this);">G</td>
-                        <td onclick="set(this);">H</td>
-                        <td onclick="set(this);">I</td>
-                        <td onclick="set(this);">J</td>
-                    </tr>
-                    <tr>
-                        <td onclick="set(this);">K</td>
-                        <td onclick="set(this);">L</td>
-                        <td onclick="set(this);">M</td>
-                        <td onclick="set(this);">N</td>
-                        <td onclick="set(this);">O</td>
-                        <td onclick="set(this);">P</td>
-                        <td onclick="set(this);">Q</td>
-                        <td onclick="set(this);">R</td>
-                        <td onclick="set(this);">S</td>
-                        <td onclick="set(this);">T</td>
-                    </tr>
-                    <tr>
-                        <td onclick="set(this);">U</td>
-                        <td onclick="set(this);">V</td>
-                        <td onclick="set(this);">W</td>
-                        <td onclick="set(this);">X</td>
-                        <td onclick="set(this);">Y</td>
-                        <td onclick="set(this);">Z</td>
-                    </tr>
-                </table>
-                <br>
-                <a class="lien" href="javascript:location.reload();">Nouvelle partie</a>
-                <table id="mot">
-                    <tr>
-                        <script language="javascript">
-                            for (var i = 0; i < wordLength; i++) document.write("<td> <p id=\"" + i + "\">" + motSecret
-                                .charAt(i) + "</p></td>");
-                        </script>
-                    </tr>
-                </table>
-                <script language="javascript">
-                    for (var i = 0; i < wordLength; i++) tableauMot[i] = document.getElementById(i);
-                </script>
+            <div class="pendu-img">
+                <img name="pendu" src="images/pendu_0.jpg">
             </div>
+
+            <div class="mot-et-clavier">
+                <div class="pendu-mot">
+                    <table id="mot">
+                        <tr>
+                            <script language="javascript">
+                                for (var i = 0; i < wordLength; i++) document.write("<td> <p id=\"" + i + "\">" +
+                                    motSecret
+                                    .charAt(i) + "</p></td>");
+                            </script>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="pendu-clavier">
+                    <table id="clavier">
+                        <tr>
+                            <td onclick="set(this);">A</td>
+                            <td onclick="set(this);">B</td>
+                            <td onclick="set(this);">C</td>
+                            <td onclick="set(this);">D</td>
+                            <td onclick="set(this);">E</td>
+                            <td onclick="set(this);">F</td>
+                            <td onclick="set(this);">G</td>
+                            <td onclick="set(this);">H</td>
+                            <td onclick="set(this);">I</td>
+                            <td onclick="set(this);">J</td>
+                        </tr>
+                        <tr>
+                            <td onclick="set(this);">K</td>
+                            <td onclick="set(this);">L</td>
+                            <td onclick="set(this);">M</td>
+                            <td onclick="set(this);">N</td>
+                            <td onclick="set(this);">O</td>
+                            <td onclick="set(this);">P</td>
+                            <td onclick="set(this);">Q</td>
+                            <td onclick="set(this);">R</td>
+                            <td onclick="set(this);">S</td>
+                            <td onclick="set(this);">T</td>
+                        </tr>
+                        <tr>
+                            <td onclick="set(this);">U</td>
+                            <td onclick="set(this);">V</td>
+                            <td onclick="set(this);">W</td>
+                            <td onclick="set(this);">X</td>
+                            <td onclick="set(this);">Y</td>
+                            <td onclick="set(this);">Z</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="pendu-new">
+                <a class="lien" href="javascript:location.reload();">Nouvelle partie</a>
+            </div>
+
+
+
+
+            <script language="javascript">
+                for (var i = 0; i < wordLength; i++) tableauMot[i] = document.getElementById(i);
+            </script>
+
 
         </div>
 
