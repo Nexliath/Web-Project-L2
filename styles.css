@@ -291,6 +291,19 @@ p {
 
 /* //////////////////////////////////////////////// CHINA AND VIETNAM PAGES /////////////////////////////////////////// */
 
+.logo-viet a {
+    font-size: 32px;
+    color: #1ab2e0da;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+
+.logo-china a {
+    font-size: 32px;
+    color: #ffffffda;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
 
 .image-banniere-china {
     background: url('china-pic/china.jpg') no-repeat top center;
@@ -312,13 +325,25 @@ p {
     align-items: center;
 }
 
-.contenu-banniere-china,
+.contenu-banniere-china {
+    margin-top: 35px;
+    text-align: center;
+    color: #fff;
+}
+
+.contenu-banniere-china h1 span {
+    color: #00a2ffda;
+}
+
 .contenu-banniere-vietnam {
     margin-top: 35px;
     text-align: center;
     color: #fff;
 }
 
+.contenu-banniere-vietnam h1 span {
+    color: #1ae05cda;
+}
 
 .contenu-banniere-china h1,
 .contenu-banniere-vietnam h1 {
@@ -327,10 +352,6 @@ p {
     margin-bottom: 16px;
 }
 
-.contenu-banniere-china h1 span,
-.contenu-banniere-vietnam h1 span {
-    color: #1ab2e0da;
-}
 
 .about-china,
 .article-china,
@@ -388,6 +409,13 @@ p {
 }
 
 /* //////////////////////////////////////////////// YOUR TURN PAGE /////////////////////////////////////////// */
+
+.logo-yt a {
+    font-size: 32px;
+    color: #1ab2e0da;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
 
 .image-banniere-yt {
     background: url('images/cover.jpg') no-repeat top center;
@@ -505,6 +533,12 @@ a.lien {
 
 /* //////////////////////////////////////////////// WHAT ABOUT US PAGE /////////////////////////////////////////// */
 
+.logo-was a {
+    font-size: 32px;
+    color: #1ab2e0da;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
 
 .image-banniere-was {
     background: url('was-pic/cover.jpg') no-repeat top center;
