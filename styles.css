@@ -293,7 +293,7 @@ p {
 
 .logo-viet a {
     font-size: 32px;
-    color: #1ab2e0da;
+    color: #1ae05cda;
     text-transform: uppercase;
     font-family: fantasy;
 }
@@ -335,6 +335,10 @@ p {
     color: #00a2ffda;
 }
 
+.contenu-banniere-china p {
+    color: #fff;
+}
+
 .contenu-banniere-vietnam {
     margin-top: 35px;
     text-align: center;
@@ -343,6 +347,11 @@ p {
 
 .contenu-banniere-vietnam h1 span {
     color: #1ae05cda;
+}
+
+.contenu-banniere-vietnam p {
+    color: #fff;
+
 }
 
 .contenu-banniere-china h1,
