@@ -14,7 +14,7 @@ mots[3] = "CHENGDU";
 mots[4] = "WUHAN";
 mots[5] = "NANKIN";
 mots[6] = "SHENZHEN";
-
+//Mettre des villes du Vietnam
 
 // On prend un mot au hasard en fonction de la seconde en cours
 motSecret=mots[Math.floor(Math.random() * 3)];
