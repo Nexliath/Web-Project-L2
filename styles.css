@@ -263,19 +263,12 @@ p {
     width: 30%;
     height: auto;
     cursor: pointer;
-    overflow: hidden;
-    position: relative;
 }
 
 .asianteam-wrapper .member img {
     display: block;
     width: 100%;
     height: auto;
-    transition: all 0.5s ease;
-}
-
-.asianteam-wrapper .member:hover img {
-    transform: scale(1.1);
 }
 
 
