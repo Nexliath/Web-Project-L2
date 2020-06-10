@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
 /* //////////////////////////////////////////////// FOR ALL PAGES /////////////////////////////////////////// */
@@ -45,7 +46,11 @@ p {
 
 
 /* Header */
-.header {
+.header,
+.header-china,
+.header-viet,
+.header-yt,
+.header-was {
     width: 100%;
     height: 65px;
     position: absolute;
@@ -54,27 +59,29 @@ p {
     align-items: center;
 }
 
-.logo a {
-    font-size: 32px;
-    color: #1ab2e0da;
-    text-transform: uppercase;
-    font-family: fantasy;
-}
 
-.header-items ul {
+.header .header-items ul,
+.header-china .header-items ul,
+.header-viet .header-items ul,
+.header-yt .header-items ul,
+.header-was .header-items ul {
     display: flex;
 }
 
-.header-items ul li {
+.header .header-items ul li,
+.header-china .header-items ul li,
+.header-viet .header-items ul li,
+.header-yt .header-items ul li,
+.header-was .header-items ul li {
     margin: 0 10px;
 }
 
-.header-items ul li a {
+.header .header-items ul li a {
     text-transform: uppercase;
     color: #fff;
 }
 
-.header-items ul li a:hover {
+.header .header-items ul li a:hover {
     text-transform: uppercase;
     color: #1ab2e0da;
     transition: all 0.3s;
@@ -158,6 +165,14 @@ p {
     align-items: center;
 }
 
+.logo a {
+    font-size: 39px;
+    color: #e05389fd;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+}
+
+
 .contenu-banniere {
     text-align: center;
     color: #fff;
@@ -170,7 +185,7 @@ p {
 }
 
 .contenu-banniere h1 span {
-    color: #1ab2e0da;
+    color: #e05389fd;
 }
 
 .contenu-banniere p {
@@ -292,17 +307,39 @@ p {
 /* //////////////////////////////////////////////// CHINA AND VIETNAM PAGES /////////////////////////////////////////// */
 
 .logo-viet a {
-    font-size: 32px;
+    font-size: 39px;
     color: #1ae05cda;
     text-transform: uppercase;
-    font-family: fantasy;
+    font-family: 'Lobster', cursive;
 }
 
 .logo-china a {
-    font-size: 32px;
+    font-size: 39px;
     color: #ffffffda;
     text-transform: uppercase;
-    font-family: fantasy;
+    font-family: 'Lobster', cursive;
+}
+
+.header-china .header-items ul li a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header-china .header-items ul li a:hover {
+    text-transform: uppercase;
+    color: #1ab2e0da;
+    transition: all 0.3s;
+}
+
+.header-viet .header-items ul li a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header-viet .header-items ul li a:hover {
+    text-transform: uppercase;
+    color: #1ab2e0da;
+    transition: all 0.3s;
 }
 
 .image-banniere-china {
@@ -420,10 +457,21 @@ p {
 /* //////////////////////////////////////////////// YOUR TURN PAGE /////////////////////////////////////////// */
 
 .logo-yt a {
-    font-size: 32px;
-    color: #1ab2e0da;
+    font-size: 39px;
+    color: #fff;
     text-transform: uppercase;
-    font-family: fantasy;
+    font-family: 'Lobster', cursive;
+}
+
+.header-yt .header-items ul li a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header-yt .header-items ul li a:hover {
+    text-transform: uppercase;
+    color: #1ab2e0da;
+    transition: all 0.3s;
 }
 
 .image-banniere-yt {
@@ -437,7 +485,7 @@ p {
 }
 
 .contenu-banniere-yt {
-    margin-top: 35px;
+    margin-top: 39px;
     text-align: center;
     color: #fff;
 }
@@ -543,10 +591,21 @@ a.lien {
 /* //////////////////////////////////////////////// WHAT ABOUT US PAGE /////////////////////////////////////////// */
 
 .logo-was a {
-    font-size: 32px;
+    font-size: 39px;
     color: #1ab2e0da;
     text-transform: uppercase;
-    font-family: fantasy;
+    font-family: 'Lobster', cursive;
+}
+
+.header-was .header-items ul li a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header-was .header-items ul li a:hover {
+    text-transform: uppercase;
+    color: #1ab2e0da;
+    transition: all 0.3s;
 }
 
 .image-banniere-was {
