@@ -1,3 +1,4 @@
+
 let motsecret;
 
 let tableauMot = new Array(); //Tableau contenant les lettres du mot
@@ -17,12 +18,13 @@ mots[6] = "SHENZHEN";
 
 
 // On prend un mot au hasard en fonction de la seconde en cours
-motSecret=mots[Math.floor(Math.random() * 3)];
+motSecret=mots[Math.floor(Math.random() * 7)];
 let wordLength = motSecret.length;
 
 function changeColor(key, color){
     key.style.backgroundColor = color;
 }
+
 
 function set(key){
 
@@ -31,12 +33,10 @@ function set(key){
     
     changeColor(key, "#26ee99");
 
-
     let trouve = false; //setting the key to false when the user click on it
 
     for(let i = 0; i < wordLength; i++){
         if(tableauMot[i].innerHTML == key.innerHTML){
-            console.log("dp");
             tableauMot[i].style.visibility = 'visible';
             trouve = true;
             letterFound++;
@@ -49,7 +49,6 @@ function set(key){
         document.images['pendu'].src="images/pendu_"+rate+".jpg"; // On change l'image du pendu
         
         if(rate == 9){
-            alert("You lost");
             for(let i = 0; i < wordLength; i++){
                 tableauMot[i].style.visibility = 'visible';
                 end = true;
@@ -57,7 +56,13 @@ function set(key){
         }
     }
     else if(letterFound == wordLength){
-        alert("you won");
         end = true;
+    }
+
+}
+
+function display_country(country){
+    if(end == true){
+        country.style.display = "block";
     }
 }
