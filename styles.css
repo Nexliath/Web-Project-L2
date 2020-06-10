@@ -312,11 +312,14 @@ p {
     }
 
     .pendu-clavier {
-        padding-left: 30px;
+        padding-left: 40px;
+        padding-bottom: 20px;
     }
 
-
-
+    .pendu-mot {
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
 }
 
 
@@ -586,6 +589,7 @@ a.lien {
     text-align: center;
     padding: 5% 10%;
 }
+
 
 
 /* //////////////////////////////////////////////// WHAT ABOUT US PAGE /////////////////////////////////////////// */
