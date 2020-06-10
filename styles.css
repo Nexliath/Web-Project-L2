@@ -17,9 +17,8 @@ h1.title {
     color: #444444;
     text-transform: uppercase;
     font-size: 38px;
-    word-spacing: 10px;
     letter-spacing: 3px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 p {
@@ -102,9 +101,9 @@ p {
 }
 
 .data-footer ul a:hover {
-    color: rgb(167, 167, 167);
+    color: #e05389fd;
     margin-left: 15px;
-    transition: all .4s;
+    transition: all .6s;
 }
 
 .data-footer p {
@@ -278,9 +277,14 @@ p {
 
 @media (max-width: 720px) {
 
-    .header {
+    .header,
+    .header-china,
+    .header-viet,
+    .header-yt,
+    .header-was {
         height: auto;
         flex-direction: column;
+        position: relative;
     }
 
     .logo {
@@ -299,6 +303,19 @@ p {
     .contenu-banniere {
         margin-top: 35px;
     }
+
+    .jeu {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pendu-clavier {
+        padding-left: 30px;
+    }
+
+
 
 }
 
