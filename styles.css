@@ -33,17 +33,6 @@ p {
     position: relative;
 }
 
-.btn a {
-    width: 180px;
-    height: 35px;
-    line-height: 35px;
-    border: 2px solid #1ab2e0da;
-    color: #1ab2e0da;
-    display: block;
-    margin: 25px auto 0;
-    text-align: center;
-}
-
 
 /* Header */
 .header,
@@ -76,16 +65,7 @@ p {
     margin: 0 10px;
 }
 
-.header .header-items ul li a {
-    text-transform: uppercase;
-    color: #fff;
-}
 
-.header .header-items ul li a:hover {
-    text-transform: uppercase;
-    color: #1ab2e0da;
-    transition: all 0.3s;
-}
 
 
 /* //////////////////////////////////////// BIG FOOTER ////////////////////////////////////////// */
@@ -165,6 +145,22 @@ p {
     align-items: center;
 }
 
+.header {
+    background: grey;
+}
+
+.header .header-items ul li a {
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.header .header-items ul li a:hover {
+    text-transform: uppercase;
+    color: #e05389fd;
+    transition: all 0.3s;
+}
+
 .logo a {
     font-size: 39px;
     color: #e05389fd;
@@ -175,7 +171,7 @@ p {
 
 .contenu-banniere {
     text-align: center;
-    color: #fff;
+    color: #e05389fd;
 }
 
 .contenu-banniere h1 {
@@ -185,11 +181,12 @@ p {
 }
 
 .contenu-banniere h1 span {
-    color: #e05389fd;
+    color: #fff;
 }
 
 .contenu-banniere p {
-    color: #fff;
+
+    color: #e05389fd;
 }
 
 /* //////////////////////////////////////////////// ABOUT PART /////////////////////////////////////////// */
@@ -222,7 +219,7 @@ p {
 
 .all-page .all-page-item h3 {
     margin-bottom: 15px;
-    color: #1ab2e0da;
+    color: #e05389fd;
 
 }
 
