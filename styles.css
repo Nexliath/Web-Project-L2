@@ -317,8 +317,10 @@ p {
     }
 
     .pendu-mot {
-        padding-left: 30px;
         padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+
     }
 }
 
@@ -599,6 +601,8 @@ a.lien {
 
 .pendu-mot {
     padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 
