@@ -307,7 +307,7 @@ p {
     .jeu {
         display: flex;
         height: auto;
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
     }
 
@@ -588,6 +588,15 @@ a.lien {
     display: none;
     text-align: center;
     padding: 5% 10%;
+}
+
+.pendu-img {
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+
+.pendu-mot {
+    padding-bottom: 10px;
 }
 
 
