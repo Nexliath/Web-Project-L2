@@ -676,6 +676,20 @@ a.lien {
 }
 
 
+.all-img-cache {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-img-cache .img-cache {
+    width: 30%;
+}
+
+.all-img-cache .img-cache img {
+    width: 100%;
+    margin-bottom: 25px;
+}
 
 /* //////////////////////////////////////////////// WHAT ABOUT US PAGE /////////////////////////////////////////// */
 
