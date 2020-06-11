@@ -7,6 +7,11 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
+// Modal
+
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
 // Jeu : its your turn
 
 let motsecret;
@@ -66,21 +71,13 @@ function set(key) {
                 tableauMot[i].style.visibility = 'visible';
                 end = true;
             }
-            let tag = document.createElement("p");
-            let text = document.createTextNode("Well you've lost, but it's okay we don't blame you ! <3");
-            tag.appendChild(text);
-            tag.style.justifyContent = "flex-end";
-            let element = document.getElementById("jeu");
-            element.appendChild(tag);
+            window.alert("Well you've lost, but it's okay we don't blame you ! <3");
+
         }
     } else if (letterFound == wordLength) {
         end = true;
-        let tag = document.createElement("p");
-        let text = document.createTextNode("Congratz! Let's give you some informations on the city then :D");
-        tag.appendChild(text);
-        tag.style.justifyContent = "flex-end";
-        let element = document.getElementById("jeu");
-        element.appendChild(tag);
+        window.alert("Congratz! Let's give you some informations on the city then :D");
+
     }
 
 }
