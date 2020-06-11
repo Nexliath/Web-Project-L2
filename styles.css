@@ -313,7 +313,7 @@ p {
 
 /* //////////////////////////////////////////////// MEDIA SETTINGS FOR RESPONSIVE /////////////////////////////////////////// */
 
-@media (max-width: 720px) {
+@media (max-width: 725px) {
 
     #top-button {
         width: 35px;
@@ -394,7 +394,7 @@ p {
 }
 
 .logo-viet a:hover {
-    color: #1ae05cda;
+    color: #12b603;
     transition: all 0.6s;
 }
 
@@ -406,7 +406,7 @@ p {
 }
 
 .logo-china a:hover {
-    color: #00a2ffda;
+    color: rgba(255, 238, 0, 0.795);
     transition: all 0.6s;
 }
 
@@ -419,7 +419,7 @@ p {
 
 .header-china .header-items ul li a:hover {
     text-transform: uppercase;
-    color: #00a2ffda;
+    color: rgba(255, 238, 0, 0.795);
     transition: all 0.3s;
 }
 
@@ -430,7 +430,7 @@ p {
 
 .header-viet .header-items ul li a:hover {
     text-transform: uppercase;
-    color: #1ae05cda;
+    color: #12b603;
     transition: all 0.3s;
 }
 
@@ -457,12 +457,13 @@ p {
 .contenu-banniere-china {
     margin-top: 35px;
     text-align: center;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.849);
 }
 
 .contenu-banniere-china h1 span {
-    color: #00a2ffda;
+    color: rgba(255, 238, 0, 0.795);
 }
+
 
 .contenu-banniere-china p {
     color: #fff;
@@ -475,7 +476,7 @@ p {
 }
 
 .contenu-banniere-vietnam h1 span {
-    color: #1ae05cda;
+    color: #12b603;
 }
 
 .contenu-banniere-vietnam p {
@@ -541,13 +542,13 @@ p {
 
 .all-article-china .all-article-china-item h3 {
     margin-bottom: 15px;
-    color: #1ab2e0da;
+    color: rgba(207, 187, 1, 0.842);
 
 }
 
 .all-article-vietnam .all-article-vietnam-item h3 {
     margin-bottom: 15px;
-    color: #1ae05cda;
+    color: #12b603;
 
 }
 
@@ -735,7 +736,7 @@ a.lien {
 .contenu-banniere-was {
     margin-top: 35px;
     text-align: center;
-    color: #fff;
+    color: rgb(248, 248, 248);
 }
 
 
@@ -746,11 +747,9 @@ a.lien {
 }
 
 .contenu-banniere-was h1 span {
-    color: #ffa600da;
+    color: #3131319f;
 }
 
-
-.about-was,
 .article-was {
     text-align: center;
     padding: 5% 10%;
@@ -781,16 +780,15 @@ a.lien {
 
 .all-article-was .all-article-was-item h3 {
     margin-bottom: 15px;
-    color: #ffa600da;
+    color: #3131319f;
 
 }
 
 .all-article-was img {
     transition: all 0.5s ease;
-    border-radius: 100px;
+    border-radius: 50%;
 }
 
 .all-article-was img:hover {
-    transform: scale(1.1);
     cursor: pointer;
 }
