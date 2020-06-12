@@ -71,13 +71,14 @@ function set(key) {
                 tableauMot[i].style.visibility = 'visible';
                 end = true;
             }
-            window.alert("Well you've lost, but it's okay we don't blame you ! <3");
-
+            let defeat_text = document.getElementById("defeat-text");
+            console.log(defeat_text);
+            defeat_text.style.display = "block";
         }
     } else if (letterFound == wordLength) {
         end = true;
-        window.alert("Congratz! Let's give you some informations on the city then :D");
-
+        let victory_text = document.getElementById("victory-text");
+        victory_text.style.display = "inline";
     }
 
 }
