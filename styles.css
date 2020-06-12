@@ -709,7 +709,7 @@ a.lien {
 
 
 .hidden_msg {
-    background-color: #f5f5f5;
+
     display: none;
 }
 
@@ -723,10 +723,12 @@ a.lien {
 
 #victory-text p {
     color: #199c0d;
+    background-color: #f5f5f5;
 }
 
 #defeat-text p {
     color: #db0b0b;
+    background-color: #f5f5f5;
 }
 
 /* //////////////////////////////////////////////// WHAT ABOUT US PAGE /////////////////////////////////////////// */
