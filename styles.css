@@ -66,9 +66,11 @@ p {
 }
 
 
-/* Header */
 
 
+/* //////////////////////////////////////// Headers ///////////////////////////////////////////////////////*/
+
+/* The gallery header is the same as the yt one*/
 
 .header,
 .header-china,
@@ -100,6 +102,8 @@ p {
 .header-was .header-items ul li {
     margin: 0 10px;
 }
+
+/* This button is located at the home page and is used in order to access to the different page overview*/
 
 .speed-btn {
     background: none;
@@ -145,6 +149,19 @@ p {
     color: #fff;
 }
 
+/* Design scroll bar in the side*/
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5a5a5abb;
+}
 
 /* //////////////////////////////////////// BIG FOOTER ////////////////////////////////////////// */
 
