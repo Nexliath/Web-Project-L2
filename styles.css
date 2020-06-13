@@ -40,6 +40,10 @@ p {
     position: relative;
 }
 
+.here {
+    border-bottom: 1.5px solid #fff;
+}
+
 /*//////// UP BTN ////// */
 
 #top-button {
