@@ -1,7 +1,9 @@
+/* Page font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Logo font */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-
+/* ALL PAGE - HEADERS - BIG FOOTER - LITTLE FOOTER _ MEDIA RESPONSIVE - HOME - CHINA/VIETNAM - MORE - YOUR TURN - GALLERY - ABOUT US */
 
 /* //////////////////////////////////////////////// FOR ALL PAGES /////////////////////////////////////////// */
 
@@ -39,6 +41,7 @@ p {
 }
 
 /*//////// UP BTN ////// */
+
 #top-button {
     border: none;
     outline: none;
@@ -66,8 +69,6 @@ p {
 }
 
 
-
-
 /* //////////////////////////////////////// Headers ///////////////////////////////////////////////////////*/
 
 /* The gallery header is the same as the yt one*/
@@ -76,7 +77,8 @@ p {
 .header-china,
 .header-viet,
 .header-yt,
-.header-was {
+.header-was,
+.header-more {
     width: 100%;
     height: 65px;
     display: flex;
@@ -91,7 +93,8 @@ p {
 .header-china .header-items ul,
 .header-viet .header-items ul,
 .header-yt .header-items ul,
-.header-was .header-items ul {
+.header-was .header-items ul,
+.header-more .header-items ul {
     display: flex;
 }
 
@@ -99,7 +102,8 @@ p {
 .header-china .header-items ul li,
 .header-viet .header-items ul li,
 .header-yt .header-items ul li,
-.header-was .header-items ul li {
+.header-was .header-items ul li,
+.header-more .header-items ul li {
     margin: 0 10px;
 }
 
@@ -291,9 +295,6 @@ p {
     color: #fff;
 }
 
-
-
-/* //////////////////////////////////////////////// PAGES PART /////////////////////////////////////////// */
 .page {
     background: #f5f5f5;
     text-align: center;
@@ -345,7 +346,8 @@ p {
     .header-china,
     .header-viet,
     .header-yt,
-    .header-was {
+    .header-was,
+    .header-more {
         height: auto;
         flex-direction: column;
         position: relative;
@@ -563,6 +565,142 @@ p {
 
 }
 
+/* ///////////////////////////////////// MORE /////////////////////////////////////////////// */
+
+.image-banniere-more {
+    background: url('more-pic/cover.png') no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(92, 92, 92) 1px 1px 3px;
+}
+
+.header-more .header-items ul li a {
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.header-more .header-items ul li a:hover {
+    text-transform: uppercase;
+    color: rgb(218, 74, 74);
+    transition: all 0.3s;
+}
+
+.logo-more a {
+    font-size: 39px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+}
+
+.logo-more a:hover {
+    color: rgb(218, 74, 74);
+    transition: all 0.6s;
+}
+
+
+.contenu-banniere-more {
+    text-align: center;
+    color: rgb(218, 74, 74);
+    opacity: 0.95;
+}
+
+.contenu-banniere-more h1 {
+    text-transform: uppercase;
+    line-height: 39px;
+    margin-bottom: 16px;
+}
+
+.contenu-banniere-more h1 span {
+
+    color: #fff;
+}
+
+.about-more {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.article-more {
+    background: #f5f5f5;
+    text-align: center;
+    padding: 5% 10%;
+
+}
+
+.all-article-more {
+    display: flex;
+    justify-content: space-around;
+}
+
+.all-article-more .all-article-more-item {
+    width: 30%;
+}
+
+.all-article-more .all-article-more-item img {
+    width: 100%;
+    margin-bottom: 8px;
+    box-shadow: grey 1px 2px 3px;
+    border-radius: 100%;
+}
+
+.all-article-more .all-article-more-item h3 {
+    margin-bottom: 5px;
+    color: rgba(97, 95, 95, 0.842);
+    font-size: medium;
+    font-style: italic;
+    text-align: center;
+}
+
+.all-article-more .all-article-more-item p {
+    text-align: center;
+}
+
+.article-more2 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.all-article-more2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.all-article-more2 .all-article-more2-item {
+    width: 30%;
+}
+
+.all-article-more2 .all-article-more2-item img {
+    width: 100%;
+    padding: 20px
+}
+
+.all-article-more2 .all-article-more2-item h3 {
+    margin-bottom: 15px;
+    color: #3131319f;
+    text-decoration: underline;
+
+}
+
+.all-article-more2 img {
+    border-radius: 10%;
+}
+
+.all-article-more2 img:hover {
+    cursor: pointer;
+}
+
 /* //////////////////////////////////////////////// YOUR TURN PAGE /////////////////////////////////////////// */
 
 .logo-yt a {
@@ -745,7 +883,7 @@ a.lien {
 
 
 .image-banniere-gallery {
-    background: url('more-pic/cover.jpg') no-repeat top center;
+    background: url('gallery-pic/cover.jpg') no-repeat top center;
     background-size: cover;
     width: 100%;
     height: 600px;
